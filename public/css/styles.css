@@ -1,0 +1,92 @@
+@font-face {
+  font-family: "Anurati";
+  src: url('../fonts/Anurati-Regular.otf') format("truetype");
+}
+
+@font-face {
+  font-family: "Beyno";
+  src: url('../fonts/BEYNO.otf') format("truetype");
+}
+
+@font-face {
+  font-family: "Neptune";
+  src: url('../fonts/Neptune.otf') format("truetype");
+}
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+.center {
+  margin:auto;
+  width:60%;
+  padding:10px;
+}
+h3{
+  text-transform: uppercase;
+  font-family:'Beyno', Verdana;
+}
+.btn-strong {
+  border-radius:0px;
+}
+
+#startbutton {
+  font-size:18px;
+  background-color:#000000;
+  color:white;
+}
+
+#welcome {
+  margin:15% 10%;
+}
+
+body {
+  background:url('../img/landscape.jpg');
+  background-size:cover;
+  height:100%;
+}
+
+#welcome-title {
+  font-size: 50px;
+  font-family:'Neptune', Verdana;
+}
+
+#brand-link {
+  font-size: 24px;
+  font-family:'Neptune', Verdana;
+}
+
+.wrapper {
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+
+.textbox-default {
+  margin:0px 10px;
+  height:40px;
+  border:2px solid #000000;
+  padding:4px;
+  font-size:18px;
+}
+
+.date-default {
+  margin:0px 10px;
+  height:40px;
+  border:2px solid #000000;
+  padding:4px;
+  font-size:18px;
+}
+
+.dropdown-default {
+  margin:0px 10px;
+  height:40px;
+  border:2px solid #000000;
+  padding:4px;
+  font-size:18px;
+  background-color:#ffffff;
+  width:180px;
+}
+
+#navigation {
+  background-color:rgba(0, 0, 0, 0.0);
+}
+
