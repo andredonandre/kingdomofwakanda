@@ -5,7 +5,7 @@ export default class Tribes extends React.Component{
     constructor(props){
         super(props);
         this.state = {
-            selected: "Select Tribe",
+            selected: "select tribe",
         };
     }
 
@@ -13,9 +13,9 @@ export default class Tribes extends React.Component{
         this.setState({selected: event.target.value});
     }
     
-    next(){        
+    next(){
+        this.props.Proceed(this.props.list.confirm);                
         this.props.SetValue(this.state.selected);
-        this.props.Proceed(this.props.list.confirm);
     }
 
     render(){
